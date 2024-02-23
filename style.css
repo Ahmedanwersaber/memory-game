@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+}
+#main{
+    width: 520px;
+    height: 490px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: #727272;
+    overflow: hidden;
+   
+}
+div{
+   
+    float: left;
+    background: url('./image/question.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    opacity: 0;
+    width:120px;
+    height: 150px;
+    object-fit: cover;
+}
